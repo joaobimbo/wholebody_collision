@@ -23,7 +23,7 @@ if DRAW
     g.vis.draw
 end
 meas_noise=0.0;
-n_par=5000;
+n_par=10000;
 p=Perception(r,140,5000,0.3,e,o,meas_noise);
 
 %%
